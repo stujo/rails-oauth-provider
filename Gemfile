@@ -37,6 +37,10 @@ gem 'devise'
 gem 'premailer-rails'
 gem 'nokogiri'
 
+gem 'quiet_assets', group: :development
+
+gem 'devise-bootstrap-views'
+
 group :development, :test do
   gem "rspec-rails"
   gem "better_errors"

@@ -32,5 +32,8 @@ module Auth
 # Minimum Sass number precision required by bootstrap-sass
     ::Sass::Script::Number.precision = [8, ::Sass::Script::Number.precision].max
 
+    config.to_prepare do
+      Devise::Mailer.layout "email" # email.haml or email.erb
+    end
   end
 end

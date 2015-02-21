@@ -11,7 +11,8 @@
  * file per style scope.
  *
  *= require bootstrap_loader
- *= require_self
+ *= require devise_bootstrap_views
+*= require_self
  */
 
 body { padding-top: 51px; }
