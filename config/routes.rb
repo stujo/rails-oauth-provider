@@ -3,9 +3,11 @@ Rails.application.routes.draw do
   use_doorkeeper
 
   devise_for :users
+  devise_for :admins
 
   root 'public#home'
 
+  get 'admin/dashboard'
   get 'private/dashboard'
   get 'private/unsubscribe'
   get 'public/terms'
