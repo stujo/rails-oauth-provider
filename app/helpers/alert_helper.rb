@@ -4,7 +4,7 @@ module AlertHelper
   def alert_map_alert_type_to_css(alert_type)
     case alert_type.to_sym
       when :notice
-        :success
+        :info
       when :alert
         :danger
       else

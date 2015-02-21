@@ -145,7 +145,7 @@ en:
     layouts:
       admin:
         nav:
-          oauth2_provider: 'OAuth2 Provider'
+          oauth2_provider: 'Auth'
           applications: 'Applications'
       application:
-        title: 'OAuth authorize required'
+        title: 'OAuth authorization required'
