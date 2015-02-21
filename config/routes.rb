@@ -1,16 +1,17 @@
 Rails.application.routes.draw do
 
-  get 'private/dashboard'
-
   use_doorkeeper
 
   devise_for :users
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
   root 'public#home'
+
+  get 'private/dashboard'
+  get 'private/unsubscribe'
+  get 'public/terms'
+  get 'public/privacy'
+  get 'public/dashboard'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
