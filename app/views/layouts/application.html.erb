@@ -13,8 +13,7 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
+<body class="<%= 'as-user' if user_signed_in? %> <%= 'as-admin' if admin_signed_in? %>">
 <div class="container">
   <div class="row clearfix">
     <div class="col-md-12 column">
