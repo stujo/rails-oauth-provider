@@ -32,6 +32,9 @@ gem 'doorkeeper'
 
 gem 'devise'
 
+gem 'premailer-rails'
+gem 'nokogiri'
+
 group :development, :test do
   gem "rspec-rails"
   gem "better_errors"
