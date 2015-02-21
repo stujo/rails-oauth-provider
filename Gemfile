@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'thin'
 
+gem 'sprockets-rails', '~> 2.2.4'
+
 # OAuth Provider https://github.com/doorkeeper-gem/doorkeeper
 gem 'doorkeeper'
 
